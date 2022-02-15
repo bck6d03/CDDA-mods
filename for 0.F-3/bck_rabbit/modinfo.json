@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "bck_rabbit",
+    "name": "兔子能馴養",
+    "authors": [
+      "bck6d03"
+    ],
+    "maintainers": [
+      "bck6d03"
+    ],
+    "description": "使兔子能用鳥食馴養，並且能和兔子玩",
+    "category": "creatures",
+    "dependencies": [
+      "dda"
+    ]
+  }
+]
