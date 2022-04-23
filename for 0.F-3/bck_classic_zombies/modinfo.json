@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "bck_classic_zombies",
+    "name": "Dark Days of the Dead",
+    "authors": [ "Hirmuolio" , "bck6d03"],
+    "maintainers": [ "I-am-Erk" ],
+    "description": "只生成野生動物和喪屍及其升級版",
+    "category": "monster_exclude",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "REVIVES", "value": false }
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "overmap_feature_flag_settings": { "whitelist": [ "CLASSIC" ] }
+  },
+  {
+    "type": "MONSTER_WHITELIST",
+    "mode": "EXCLUSIVE",
+    "categories": [ "CLASSIC", "WILDLIFE" ], 
+	"monsters": [
+		"mon_zombie_fungus",
+		"mon_zombie_gasbag_fungus",
+		"mon_zombie_smoker_fungus",
+		"mon_zombie_child_fungus",
+
+		"mon_zombie_crawler_pupa_decoy",
+		"mon_zombie_crawler_pupa",
+		"mon_zombie_pupa_decoy",
+		"mon_zombie_pupa",
+		"mon_zombie_pupa_decoy_shady",
+		"mon_zombie_pupa_shady",
+
+		"mon_zombie_winged",
+		"mon_zombie_brute_winged",
+
+		"mon_zombie_acidic",
+		"mon_zombie_corrosive",
+		"mon_zombie_spitter",
+		"mon_zombie_wretched",
+		"mon_zombie_dog_acidic",
+		"mon_zombie_dog_brute_acidic",	
+
+		"mon_zombie_child_scorched",
+		"mon_zombie_fiend",
+		"mon_zombie_scorched",
+
+		"mon_zombie_anklebiter",
+		"mon_zombie_child",
+		"mon_zombie_creepy",
+		"mon_zombie_shriekling",
+		"mon_zombie_snotgobbler",
+		"mon_zombie_sproglodyte",
+		"mon_zombie_waif",
+
+		"mon_zombie_brute_shocker",
+		"mon_zombie_electric",
+		"mon_zombie_nullfield",
+		"mon_zombie_static",
+
+		"mon_zombie_gasbag",
+		"mon_zombie_rust",
+		"mon_zombie_shell",
+		"mon_zombie_plated",
+		"mon_zombie_urchin",
+		"mon_zombie_hammer_hands",
+
+		"mon_zombie_crushed_giant",
+		"mon_zombie_gasbag_immobile",
+		"mon_zombie_gasbag_crawler",
+		"mon_zombie_gasbag_impaler",
+		"mon_zombie_scissorlimbs",
+		"mon_zombie_hanging_innards",
+		"mon_zombie_giant_heart",
+		"mon_zombie_living_wall",
+
+		"mon_zombie_scientist",
+		"mon_zombie_labsecurity",
+		"mon_zombie_phase_skulker",
+		"mon_zombie_phase_shrike",
+
+		"mon_zombie_biter",
+		"mon_zombie_brainless",
+		"mon_zombie_brute",
+		"mon_zombie_brute_grappler",
+		"mon_zombie_brute_ninja",
+		"mon_zombie_ears",
+		"mon_zombie_grabber",
+		"mon_zombie_grappler",
+		"mon_zombie_hollow",
+		"mon_zombie_hulk",
+		"mon_zombie_hunter",
+		"mon_zombie_jackson",
+		"mon_zombie_mancroc",
+		"mon_zombie_master",
+		"mon_zombie_necro",
+		"mon_zombie_necro_boomer",
+		"mon_zombie_runner",
+		"mon_zombie_predator",
+		"mon_zombie_screecher",
+		"mon_zombie_shady",
+		"mon_zombie_shrieker",
+		"mon_zombie_skull",
+		"mon_zombie_smoker",
+		"mon_zombie_swimmer_base",
+		"mon_zombie_swimmer",
+		"mon_zombie_technician",
+		"mon_zombie_thorny",
+		"mon_zombie_reenactor",
+
+		"mon_zombie_prisoner",
+		"mon_zombie_prisoner_brute",
+		"mon_zombie_prisoner_fat",
+		"mon_zombie_prisoner_tough",
+
+		"mon_zombie_soldier",
+		"mon_zombie_soldier_blackops_1",
+		"mon_zombie_soldier_blackops_2",
+		"mon_zombie_soldier_acid_1",
+		"mon_zombie_soldier_acid_2",
+		"mon_zombie_kevlar_1",
+		"mon_zombie_kevlar_2",
+		"mon_zombie_military_pilot",
+		"mon_zombie_flamer",
+		"mon_zombie_armored",
+		"mon_zombie_bio_op",
+		"mon_zombie_bio_op2",
+
+		"mon_zombie_survivor",
+		"mon_zombie_survivor_elite"
+    ]
+	
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "DISABLE_ROBOT_RESPONSE",
+    "stype": "bool",
+    "value": true
+  },
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "map_extras": {
+      "forest": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_spider": 0 } },
+      "forest_thick": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_shia": 0, "mx_spider": 0, "mx_jabberwock": 0 } },
+      "forest_water": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_spider": 0 } },
+      "field": { "extras": { "mx_portal": 0, "mx_portal_in": 0 } },
+      "road": { "extras": { "mx_portal": 0, "mx_portal_in": 0 } },
+      "build": { "extras": { "mx_house_spider": 0, "mx_house_wasp": 0, "mx_portal": 0, "mx_portal_in": 0 } },
+      "marloss": { "chance": 0, "extras": { "mx_marloss_pilgrimage": 0 } },
+      "subway": { "extras": { "mx_portal": 0, "mx_portal_in": 0 } }
+    }
+  }
+]
