@@ -1,0 +1,16 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "growable-pots-ex",
+    "name": "园艺花盆EX",
+    "authors": [
+      "Honcharuk", "bck6d03"
+    ],
+    "description": "让玩家能够制造可携带的花盆，并在其中种植作物，非常适合居无定所的种植者。修改了生長時間，增加真實感",
+    "category": "items",
+    "dependencies": [
+      "dda"
+    ],
+    "obsolete": false
+  }
+]
